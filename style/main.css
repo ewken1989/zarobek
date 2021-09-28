@@ -30,6 +30,9 @@ main{
 /* Komentarze */
 .main__bottom{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main__bottom > h2{
     margin: 20px 30px
@@ -37,4 +40,34 @@ main{
 .main__bottom > div{
     font-size: 1.3rem;
     padding-bottom: 50px;
+}
+.main__bottom > form{
+    width: 60%;
+}
+
+.main__comments{
+    padding: 10px 20px;
+}
+.main__comment{
+    margin-bottom: 10px;
+    background-color: #fafafafa;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.main__comment > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main__commentName,
+.main__commentDate{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.main__commentCnt{
+   text-align: left;
+}
+/* ***** */
+.form-label{
+    font-weight: 600;
 }
