@@ -1,7 +1,18 @@
-header{
-    height: 100px;
+header {
+    height: 95px;
+    color: #2b5d98;
+    
 }
-.header__container{
+header a, a:visited{
+    text-decoration: none;
+    color: #2b5d98;
+    transition: color 0.75s ease-in-out;
+}
+
+header a:hover{
+    color: #83b6f1;
+}
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,18 +23,26 @@ header{
     top: 0;
     width: 100%;
     background-color: #ffffff;
+    background-image: url("../images/header.png");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 40%;
 }
-.header__left{
+
+.header__left {
     display: flex;
 }
-.header__left > div{
+
+.header__left>div {
     margin-left: 10px;
 }
-.header__right{
+
+.header__right {
     font-size: 1.5rem;
     width: 35%;
 }
-.header__right > ul{
+
+.header__right>ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;

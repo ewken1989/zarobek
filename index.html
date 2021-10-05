@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Zarabiaj w domu</title>
 </head>
 
@@ -45,22 +46,25 @@
             <h2>Porozmawiajmy</h2>
             <div>Jeżeli masz jakieś pytania lub znasz inny sposób zarobku przez internet podziel się tym w komentrzu
                 poniżej</div>
-            <form class="main__form form-js">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Podaj imię lub nick:</label>
-                    <input type="text" class="form-control name-js" id="exampleFormControlInput1"
-                        placeholder="np. ewken1989">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Wprowadź treść komentarza:</label>
-                    <textarea class="form-control content-js" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-3">Dodaj Komentarz</button>
-                </div>
-            </form>
-            <div class="main__comments comments-js">
-                <!-- <template>
+            <div class="main__formContainer">
+                <img src="./images/rainbow.png" alt="Rainbow" title="Rainbow" />
+                <form class="main__form form-js">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Podaj imię lub nick:</label>
+                        <input type="text" class="form-control name-js" id="exampleFormControlInput1"
+                            placeholder="np. ewken1989">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Wprowadź treść komentarza:</label>
+                        <textarea class="form-control content-js" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Dodaj Komentarz</button>
+                    </div>
+                </form>
+            </div>
+            <div class="main__comments comments-js">         
+                <template>
                     <div class="main__comment">
                         <div>
                             <div class="main__commentName">Ewken1989</div>
@@ -70,24 +74,20 @@
                             Jest jeszcze fajna stronka wypcha się pl suber truper hanah monatna
                         </div>
                     </div>
-                </template> -->
+                </template>
             </div>
-
         </div>
     </main>
-    <!-- <footer>
+    <footer>
         <div class="footer__left">
             <i class="fas fa-hand-holding-usd header__icon"></i>
             <div>Ewken1989</div>
         </div>
-        <div>
+        <div class="footer__right">
             by Agnieszka Kamińska
         </div>
-    </footer> -->
+    </footer>
     <script type="module" defer src="./dist/bundle.js"></script>
-    <!-- <script type="module" defer src="./script/index.js"></script> -->
-    <!-- <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js"></script> -->
     <script src="https://kit.fontawesome.com/0c11e74e3d.js" crossorigin="anonymous" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">

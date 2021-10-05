@@ -1,21 +1,23 @@
-main{
-    height: 80%;
-}
 /* Reklamy */
 .main__top{
     text-align: center;
     padding-bottom: 20px;
     box-shadow: 0 4px 4px -2px rgba(128, 128, 128, 0.692);
+    background: url("../images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-shadow: 2px 2px 2px #ffffff;
 }
 .main__top > h1{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .main__top > div{
     font-size: 1.3rem;
+    font-weight: 500;
 }
 .main__banners{
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,11 +28,14 @@ main{
 
 /* Komentarze */
 .main__bottom{
+    background-color: #F0F8FF;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    text-shadow: 2px 2px 2px #fafafafa;
+    border-top: 2px solid #808080;
+}    
 .main__bottom > h2{
     margin: 20px 30px
 }
@@ -38,12 +43,23 @@ main{
     font-size: 1.3rem;
     padding-bottom: 50px;
 }
-.main__bottom > form{
+.main__formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main__formContainer > img{
+    width: 200px;
+    object-fit: contain;
+}
+.main__formContainer > form{
     width: 60%;
 }
 
 .main__comments{
     padding: 10px 20px;
+    background-color: #2b5d98;
+    border-radius: 10px;
 }
 .main__comment{
     margin-bottom: 10px;

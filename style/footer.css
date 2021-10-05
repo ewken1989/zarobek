@@ -1,19 +1,15 @@
 footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
-    box-shadow:  0 -5px 5px -5px rgba(128, 128, 128, 0.692);
+    padding: 20px 30px;
+    font-size:1.5rem;
+    color: #2b5d98;
+    border-top: 2px solid #808080;
 }
 
 .footer__left{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.5rem;
 }
 .footer__left > div{
     margin-left: 10px;

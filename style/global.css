@@ -9,12 +9,3 @@ html, body{
     height: 100%;
 }
 
-a,
-a:visited{
-    color: #adadadfa !important;
-    text-decoration: none !important;
-    transition: color 0.75s ease-in-out;
-}
-a:hover{
-    color: black;
-}
