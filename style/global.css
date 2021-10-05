@@ -11,8 +11,8 @@ html, body{
 
 a,
 a:visited{
-    color: #adadadfa;
-    text-decoration: none;
+    color: #adadadfa !important;
+    text-decoration: none !important;
     transition: color 0.75s ease-in-out;
 }
 a:hover{
