@@ -1,3 +1,6 @@
+main{
+    padding-bottom: 10px;
+}
 /* Reklamy */
 .main__top{
     text-align: center;
@@ -54,6 +57,8 @@
 }
 .main__formContainer > form{
     width: 60%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .main__comments{
@@ -85,3 +90,7 @@
 .form-label{
     font-weight: 600;
 }
+
+/* .green-mail{
+    width:750px;
+} */
