@@ -4,15 +4,15 @@ import { form, name, content, commetns } from "./variables";
 
 function clickButton(e) {
   e.preventDefault();
-  
-  if(name.value === ""){
-      alert("Wpisz imię albo nick")
-      return
+
+  if (name.value === "") {
+    alert("Wpisz imię albo nick");
+    return;
   }
-  if(content.value === ""){
-    alert("Wpisz treść komentarza")
-    return
-}
+  if (content.value === "") {
+    alert("Wpisz treść komentarza");
+    return;
+  }
 
   db.collection("comments").add({
     name: name.value,
@@ -25,7 +25,7 @@ function clickButton(e) {
 }
 
 function saveData() {
- form.addEventListener("submit", clickButton);
+  form.addEventListener("submit", clickButton);
 }
 
 export default saveData;
