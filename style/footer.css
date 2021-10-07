@@ -6,6 +6,7 @@ footer{
     font-size:1.5rem;
     color: #2b5d98;
     border-top: 2px solid #808080;
+    font-weight: 600;
 }
 
 .footer__left{
@@ -13,4 +14,10 @@ footer{
 }
 .footer__left > div{
     margin-left: 10px;
+}
+
+@media screen and (max-width: 470px){
+    footer{
+        font-size: 1.2rem;
+    }
 }

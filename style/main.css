@@ -12,7 +12,7 @@ main{
     text-shadow: 2px 2px 2px #ffffff;
 }
 .main__top > h1{
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 .main__top > div{
@@ -94,3 +94,23 @@ main{
 /* .green-mail{
     width:750px;
 } */
+
+@media screen and (max-width: 750px){
+.green-mail,
+.advertising-center{
+    width:95%;
+}
+
+}
+@media screen and (max-width:470px){
+    .main__formContainer > img{
+        display: none;
+    }
+    .main__formContainer > form{
+        width: 95%;
+    }
+    .main__commentName,
+    .main__commentDate{
+        font-size: 1.2rem;
+    }
+}

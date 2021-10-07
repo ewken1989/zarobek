@@ -28,13 +28,19 @@ header a:hover{
     background-repeat: no-repeat;
     background-position: 40%;
 }
-
+.header__iconTwo{
+    display: none;
+}
+.header__iconOne{
+    display: none;
+}
 .header__left {
     display: flex;
 }
 
 .header__left>div {
     margin-left: 10px;
+    font-weight: 600;
 }
 
 .header__right {
@@ -46,4 +52,35 @@ header a:hover{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 865px){
+    .header__right > ul{
+        justify-content:space-evenly;
+    }
+    .header__iconOne,
+    .header__iconTwo{
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    .header__columnOne,
+    .header__columnTwo{
+        display: none;
+    }
+}
+@media screen and (max-width: 865px){
+    .header__container{
+        background-image: url("../images/rainbow.png");
+        background-size: contain;
+        background-position: 60%;
+        background-color: #F0F8FF;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .header__left > div{
+        font-size: 1.5rem;
+    }
 }
