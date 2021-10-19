@@ -1,8 +1,3 @@
-main blockquote{
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-}
 /* Reklamy */
 .main__top{
     text-align: center;
@@ -31,7 +26,32 @@ main blockquote{
 .main__banners > div{
     margin-bottom: 10px;
 }
-
+.main__banks{
+    display: flex;
+    justify-content: center;
+}
+.main__nationalPanel{
+    background:rgba(250, 250, 250, 0.588);
+    width: 60%;
+    border-radius: 10px;
+    transition: all 0.75s ease-in-out;
+}
+.main__nationalPanel:hover{
+    background: rgb(250, 250, 250);
+}
+.main__nationalPanel a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 20px;
+}
+.main__banks > div{
+    width: 70%;
+    background-color:rgba(250, 250, 250, 0.588);
+    padding: 10px;
+    border-radius: 10px;
+}
 /* Komentarze */
 .main__bottom{
     background: url("../images/background.svg");
@@ -116,5 +136,8 @@ main blockquote{
     .main__commentName,
     .main__commentDate{
         font-size: 1.2rem;
+    }
+    .main__banks{
+        font-size: 1.1rem;
     }
 }
